@@ -48,7 +48,7 @@ public class Decrypt {
 //            String str = new String(decodedData);
 //            System.out.println("DECODED FILE CONTENTS : " + str);
         	
-        	//prova
+        	//prova1
         	byte[] fileData = readFile();
         	KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
             keyGenerator.init(128);
